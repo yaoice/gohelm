@@ -87,8 +87,8 @@ Kubernetes API服务器连接。 服务器端负责以下功能:
 
 ## 参考实现sample(列出release)
 
-- [gohelm-client]()
-- [gohelm-grpc]()
+- [gohelm-client](gohelm-client/main.go)
+- [gohelm-grpc](gohelm-grpc/main.go)
 
 ## 参考链接
 
