@@ -1,0 +1,22 @@
+package: github.com/yaoice/gohelm
+import:
+- package: github.com/golang/protobuf
+  version: ~1.1.0
+  subpackages:
+  - proto
+  - ptypes/any
+  - ptypes/timestamp
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: google.golang.org/grpc
+  version: ~1.14.0
+  subpackages:
+  - metadata
+- package: k8s.io/helm
+  version: ~2.9.1
+  subpackages:
+  - pkg/helm
+  - pkg/proto/hapi/chart
+  - pkg/proto/hapi/release
+  - pkg/proto/hapi/version
